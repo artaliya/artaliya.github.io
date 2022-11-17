@@ -1,0 +1,17 @@
+.imprintBody{
+
+}
+.ibInner{
+
+}
+.ibiHeader{
+
+}
+.ibiSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.ibisText{
+    margin-bottom: 0px;;
+}

@@ -1,0 +1,22 @@
+.adminRes{
+
+}
+.arInner{
+
+}
+.admResSel{
+    color: #1e90ff;
+    cursor: pointer;
+}
+.cbiReservations1{
+    display: none;
+    margin-top: 30px;
+}
+.sCheck{
+    margin-right: 10px;
+}
+.resConfirm{
+    color: #4bb543;
+    text-decoration: none;
+    margin-left: 10px;
+}

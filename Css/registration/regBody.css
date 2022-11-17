@@ -1,0 +1,67 @@
+.registration{
+
+}
+.regInner{
+    
+}
+.riHeader{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.riForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rifPart{
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.rifpLabel{
+    margin-bottom: 1px;
+}
+.rifpInput{
+    width: 360px;
+    height: 36px;
+    border: 1px solid #7a7a7a;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.rifpSubmit{
+    width: 360px;
+    height: 36px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006ce4;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    transition: .3s;
+}
+.rifpSubmit:hover{
+    transition: .3s;
+    background: #0055b6;
+}
+.rifpInput:focus{
+    border: 2px solid #006ce4;
+}
+#salutation option, #salutation{
+    width: 360px;
+    height: 36px;
+}
+
+@media screen and (max-width: 400px){
+    #salutation option, #salutation{
+        width: 300px;
+    }
+    .rifpInput{
+        width: 300px;
+    }
+    .rifpSubmit{
+        width: 300px;
+    }
+}

@@ -1,0 +1,51 @@
+.cabinetBody{
+
+}
+.cbInner{
+
+}
+.cbiHeader{
+    margin-bottom: 20px;
+}
+.cbiReservations{
+    display: flex;
+    flex-direction: column;
+}
+td{
+    white-space: nowrap;
+}
+.cbirItem{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #003580;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s;
+}
+.cbirItem:hover{
+    transition: .3s;
+    background: #dbdbdb;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.resCalcel{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fc3939;
+}
+
+@media screen and (max-width: 1250px){
+    .cbiReservations{
+        overflow-x: scroll;
+    }
+}

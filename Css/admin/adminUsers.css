@@ -1,0 +1,34 @@
+.adminUsers{
+
+}
+.auInner{
+
+}
+.userCheck{
+    margin-right: 10px;
+}
+.cbiReservations{
+    overflow-x: scroll;
+}
+.cbirbReset{
+    color: #0071c2;
+    cursor: pointer;
+}
+.cbirButtons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.cbirbSave{
+    color: #4bb543;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+    background: none;
+    border: none;
+    transition: .3s;
+}
+.cbirbSave:hover{
+    transition: .3s;
+    color: #347c2e;
+}

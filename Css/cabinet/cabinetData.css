@@ -1,0 +1,79 @@
+.cData{
+
+}
+.cdInner{
+
+}
+.cdiHeader{
+    margin-bottom: 15px;
+}
+.cdiData{
+    display: flex;
+    flex-direction: column;
+}
+.cdidItem{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 10px;
+}
+.cdidiName{
+    width: fit-content;
+    white-space: nowrap;
+}
+.cdidinSpan{
+    color: #e65b5b;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cdidiChange{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #7a7a7a;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 7px;
+    display: none;
+}
+.cdidiChange:focus{
+    border: 2px solid #006ce4;
+}
+.cdidSubmit{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006ce4;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    transition: .3s;
+    display: none;
+}
+.cdidSubmit:hover{
+    transition: .3s;
+    background: #0055b6;
+}
+.cdidiPass{
+    display: none;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #7a7a7a;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 7px;
+    margin-bottom: 8px;
+}
+.cdidiPass:focus{
+    border: 2px solid #006ce4;
+}
+.cdidinSpanPassword{
+    margin-left: 0px;
+}
+@media screen and (max-width: 1250px){
+    .cdidItem{
+        overflow-x: scroll;
+    }
+}
